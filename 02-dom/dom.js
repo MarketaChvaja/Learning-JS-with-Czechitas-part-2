@@ -15,3 +15,15 @@ let html = `
 		Croissant tart candy canes gingerbread powder bear claw.
 	</p>
 `;
+
+let hlavniNadpis = document.querySelector(".hlavni-nadpis");
+hlavniNadpis.style.backgroundColor = "purple";
+hlavniNadpis.style.color = "white";
+
+
+let sekundarniNadpis = document.querySelector(".sekundarni-nadpis");
+sekundarniNadpis.textContent = "Asterix a Obelix";
+
+let obrazek = document.querySelector("#obrazek");
+obrazek.src = "./obrazky/asterix_a_obelix.png"
+
